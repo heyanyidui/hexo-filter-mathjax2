@@ -1,4 +1,24 @@
-# Hexo Filter MathJax
+# Hexo-Filter-MathJax2
+
+> forked from [hexo-filter-mathjax](https://github.com/next-theme/hexo-filter-mathjax)
+> and fixed some problems 
+
+## Problems fixed
+
+* filter before post render to make sure that mathjax works well.
+
+for example,
+
+```bash
+$$
+f(x)=\left\{\begin{array}{lr}
+x= & \cos (t) \\
+y= & \sin (t) \\
+z= & \frac{x}{xy}
+\end{array}\right.
+$$
+```
+
 
 [![npm-image]][npm-url]
 [![lic-image]](LICENSE)
